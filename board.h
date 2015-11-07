@@ -28,7 +28,12 @@ class Board
 
     string Board::printBoard(void)
 {
-        return x1 + "|" + x2 + "|" + x3;
+        return x1 + "|" + x2 + "|" + x3+"\n"
+              +"_"+" "+"_"+" "+"_"+" "+"\n"
+              +x4 + "|" + x5 + "|" + x6+"\n"
+              +"_"+" "+"_"+" "+"_"+" "+"\n"
+              +x7 + "|" + x8 + "|" + x9+"\n";
+         
 
 }
 
