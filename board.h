@@ -23,7 +23,33 @@ class Board
     //Member Functions
     void setString(string x, string val);
     string printBoard(void);
-    
+    void setValue(string x){
+        if(x=="1" && x1!="X"){
+            x1="X";
+        }else if(x=="2"){
+            x2="X";
+        }else if(x=="3"){
+            x3="X";
+        }else if(x=="4"){
+            x4="X";
+        }else if(x=="5"){
+            x5="X";
+        }else if(x=="6"){
+            x6="X";
+        }else if(x=="7"){
+            x7="X";
+        }else if(x=="8"){
+            x8="X";
+        }else if(x=="9"){
+            x9="X";
+        }
+        
+        
+        
+        
+        
+        
+    }
 };
 
 void Board::setString(string x, string val){
@@ -68,12 +94,7 @@ string Board::printBoard(void)
 
 }
 
-void checkInput(string input,Board board){
-    if(input=="1"){
-        board.setString("x1","X");
-    }
-    
-}
+
 
 #endif	/* TEST_H */
 

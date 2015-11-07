@@ -45,9 +45,20 @@ int main() {
         cout<<"Input a number! ";
         string input ="";
         getline(cin, input);
-        
+        TicTacToe.setValue(input);
         break;
         
     }
     cout<<TicTacToe.printBoard();
+    
+    while(true){
+        cout<<"The computer is making a move! ";
+        int r = rand() % 10;
+        stringstream ss;
+        ss << r;
+        string str = ss.str();
+        if(str!=TicTacToe){
+            
+        }
+    }
 }   
